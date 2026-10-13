@@ -1,0 +1,29 @@
+---
+const { tituloFormulario } = Astro.props;
+---
+
+<main id="principal">
+    <div class="caja">
+    <!-- Formulario -->
+     <h2>{tituloFormulario}</h2>
+    <form>
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre"/>
+
+        <label for="telefono">Teléfono:</label>
+        <input type="tel" id="telefono" name="telefono" />
+
+        <label for="direccion">Dirección:</label>
+        <input type="text" id="direccion" name="direccion" />
+
+        <label for="email">Correo:</label>
+        <input type="email" id="email" name="email"/>
+
+        
+    </form>
+    <div id="boton">
+
+        </div>
+</div>
+<script src="C:/Users/Usuario/Downloads/Prueba-Astro/src/pages/js/script.js"></script>
+</main>
